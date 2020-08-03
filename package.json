@@ -1,0 +1,28 @@
+{
+  "name": "vue-codes1",
+  "version": "1.0.0",
+  "description": "Vue数据【变化侦测】源码手动实现",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "rollup -c",
+    "server": "cross-env ENV=development MODE=test rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liYinFeng2/Vue-codes1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liYinFeng2/Vue-codes1/issues"
+  },
+  "homepage": "https://github.com/liYinFeng2/Vue-codes1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "cross-env": "^7.0.2",
+    "rollup": "^2.23.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.0.3"
+  }
+}

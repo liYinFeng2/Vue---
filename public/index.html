@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="htmlCont">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1">
+<title></title>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+<script type="text/javascript" src="../dist/umd/vue.js"></script>
+<script>
+var vm = new Vue({
+  el: '#app',
+  data () {
+    return {
+      name: 'liyinfeng',
+      address: {
+        sheng: '河北',
+        shi: '保定'
+      },
+      results: [100,200,300,[1,2,4,5]]
+    }
+  }
+})
+</script>
+</html>
